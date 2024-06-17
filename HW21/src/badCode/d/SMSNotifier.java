@@ -1,7 +1,8 @@
 package badCode.d;
 
-public class SMSNotifier {
-    void sendSMS(String phoneNumber, String message) {
-        // отправить SMS уведомление
+public class SMSNotifier implements Notifier {
+
+    @Override
+    public void send(String phoneNumber, String message) {
     }
 }
